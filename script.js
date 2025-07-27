@@ -10,7 +10,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 let userMessage = null; 
 const inputInitHeight = chatInput.scrollHeight;
 
-const API_KEY = 
+const API_KEY = ` AIzaSyAXkv4KyMLgx7xdPciC-e4_iUbsVv-5CzE`
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 console.log(API_KEY);
 const createChatLi = (message, className) => {
